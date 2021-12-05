@@ -44,7 +44,7 @@ export const SiteCreateModal: React.FC<SiteCreateModalProperties> = props => {
 
   return (
     <Async deferFn={applyAction}>
-      {({ error, isLoading, run }) => (
+      {({ error, isLoading, run }: any) => (
         <Modal
           isOpen={props.isOpen}
           onClose={() => {

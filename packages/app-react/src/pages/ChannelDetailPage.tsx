@@ -13,7 +13,7 @@ import { useChannelContext } from "../contexts/ChannelContext";
 
 export interface ChannelDetailPageProps extends RouteComponentProps {}
 
-export const ChannelDetailPage: React.FC<ChannelDetailPageProps> = props => {
+export const ChannelDetailPage: React.FC<ChannelDetailPageProps> = (props: any) => {
   let channel: Channel = props.location.state.channel;
 
   const channelContext = useChannelContext();
