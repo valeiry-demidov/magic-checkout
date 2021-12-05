@@ -12,7 +12,7 @@
     "@types/react-router-dom": "^4.3.4",
     "@types/styled-components": "^4.1.18",
     "axios": "^0.19.0",
-    "lerna": "^3.15.0",
+    "lerna": "^3.16.4",
     "node-bigcommerce": "^4.0.1",
     "react": "^16.8.6",
     "react-async": "^8.0.0",
@@ -22,7 +22,7 @@
     "react-scripts": "3.0.1",
     "styled-components": "^4.3.2",
     "typescript": "3.4.5",
-    "yarn": "^1.16.0"
+    "yarn": "^1.17.3"
   },
   "scripts": {
     "start": "react-scripts start",
